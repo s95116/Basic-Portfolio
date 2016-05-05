@@ -116,12 +116,8 @@ h2{
 
 }
 
-#message-field { 
-	height:350px;
-	width:550px;
-
-
-
+#name-input-field{
+	margin-bottom: 20px;
 }
 
 #github {
