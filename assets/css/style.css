@@ -47,6 +47,7 @@ a.nav:hover {
 
 .container {
     width: 960px;
+    height:auto;
     margin-bottom: 38px;
     margin-top: 25px;
     margin-left: 153px;
@@ -131,14 +132,14 @@ h2 {
 #left-images {
     float: left;
     clear: left;
-    height: 582px;
+    height: auto;
     width: 194px;
 }
 
 #right-images {
     float: left;
     clear: right;
-    height: 582px;
+    height: auto;
     width: 194px;
     margin-left: 137px;
 }
