@@ -1,209 +1,203 @@
-body{
-	margin:0;
-	padding:0;
-	background-image: url("../images/dark_embroidery.png");
-	max-height: 736px;
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/dark_embroidery.png);
+    max-height: 736px;
 }
 
-header{
-	height:79px;
-	border-width: 0 0 2px;
-	border-color:#ccc;
-	border-style: solid;
-	background-color: #fff;
-	font-family: 'Georgia', Times, 'Times New Roman', serif;
-}	
-
-.site-logo{	
-	background-color: #4aaaa5;
-	color:#eeeeee;
-	font-size:40px;
-	width:246px;
-	padding-top: 25px;
-	border-color: #cccccc;
-	margin-left: 153px;
-	text-align: center;
-	height:54px;
+header {
+    height: 79px;
+    border-width: 0 0 2px;
+    border-color: #ccc;
+    border-style: solid;
+    background-color: #fff;
+    font-family: 'Georgia',Times,'Times New Roman',serif;
 }
 
-.nav-bar{
-	margin-right: 275px;
-	float:right;
-	margin-top: 42px;
-	opacity: 0.5;
+.site-logo {
+    background-color: #4aaaa5;
+    color: #eee;
+    font-size: 40px;
+    width: 246px;
+    padding-top: 25px;
+    border-color: #ccc;
+    margin-left: 153px;
+    text-align: center;
+    height: 54px;
 }
 
-a{
-	color:#777;
+.nav-bar {
+    margin-right: 275px;
+    float: right;
+    margin-top: 42px;
+    opacity: .5;
+}
 
+a {
+    color: #777;
 }
 
 a.nav:link {
     text-decoration: none;
 }
 
-a.nav:hover {background:#4aaaa5;}
-
-
-.container{
-	width:960px;
-	margin-bottom: 38px;
-	margin-top: 25px;
-	margin-left: 153px;
-	overflow: auto;
-	clear:both;
+a.nav:hover {
+    background: #4aaaa5;
 }
 
-h2{
-	color:#4aaaa5;
-	font-size: 23px;
+.container {
+    width: 960px;
+    margin-bottom: 38px;
+    margin-top: 25px;
+    margin-left: 153px;
+    overflow: auto;
+    clear: both;
 }
 
-#dividing-line{
-	border-width:1px;
-	margin-right: 15px;
-	border-style:solid;
-	color:#ddd;
+h2 {
+    color: #4aaaa5;
+    font-size: 23px;
 }
 
-
-
-#main-content{
-	background-color: #fff;
-	border-color:#ddd;
-	border-width:2px;
-	border-style: solid;
-	width:636px;
-	height:auto;
-	font-size:17px;
-	line-height: 1.8em;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	clear:none;
-	float:left;
-	padding-left: 15px;
-	padding-top: 10px;
-	color: #777;
+#dividing-line {
+    border-width: 1px;
+    margin-right: 15px;
+    border-style: solid;
+    color: #ddd;
 }
 
-
-#profile-image{
-	float:left;
-	height:200px;
-	width:200px;
-	padding-right:12px;
-}	
-
-#side-bar{
-	width:270px;
-	height:120px;
-	background-color: #fff;
-	border-color:#ddd;
-	border-width:2px;
-	border-style: solid;
-	float:right;
-	clear:right;
-	text-align: center;
-	padding-top: 15px;
+#main-content {
+    background-color: #fff;
+    border-color: #ddd;
+    border-width: 2px;
+    border-style: solid;
+    width: 636px;
+    height: auto;
+    font-size: 17px;
+    line-height: 1.8em;
+    font-family: 'Arial','Helvetica Neue',Helvetica,sans-serif;
+    clear: none;
+    float: left;
+    padding-left: 15px;
+    padding-top: 10px;
+    color: #777;
 }
 
-#dividing-line2{
-	border-width: 1px;
-	border-style:solid;
-	width:85%;
-	margin-right: 20px;
-	color:#ddd;
-	margin-top: 10px;
-
+#profile-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    padding-right: 12px;
 }
 
-#name-input-field, #email-input-field{
-	margin-bottom: 20px;
-	width:97%;
+#side-bar {
+    width: 270px;
+    height: 120px;
+    background-color: #fff;
+    border-color: #ddd;
+    border-width: 2px;
+    border-style: solid;
+    float: right;
+    clear: right;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#dividing-line2 {
+    border-width: 1px;
+    border-style: solid;
+    width: 85%;
+    margin-right: 20px;
+    color: #ddd;
+    margin-top: 10px;
+}
+
+#name-input-field,#email-input-field {
+    margin-bottom: 20px;
+    width: 97%;
 }
 
 #submit-button {
-	background-color: #4aaaa5;
-	color:#eeeeee;
-	width:94px;
-	height:35px;
-	border:0;
-	font-size: 15px;
-	text-align: center;
-	font-family: 'Georgia', Times, 'Times New Roman', serif;	
+    background-color: #4aaaa5;
+    color: #eee;
+    width: 94px;
+    height: 35px;
+    border: 0;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Georgia',Times,'Times New Roman',serif;
 }
 
-#left-images{
-	float:left;
-	clear:left;
-	height:582;
-	width:194px;
+#left-images {
+    float: left;
+    clear: left;
+    height: 582px;
+    width: 194px;
 }
 
-#right-images{
-	float:left;
-	clear:right;
-	height:582px;
-	width:194px;
-	margin-left: 137px;
+#right-images {
+    float: left;
+    clear: right;
+    height: 582px;
+    width: 194px;
+    margin-left: 137px;
 }
 
-#technics1, #technics2, #technics4, #technics5 {
-	padding-bottom: 41px;
-}
-#technics1, #technics2, #technics3,
-#technics4, #technics5{
-	width:290px;
-	height:190px;
+#technics1,#technics2,#technics4,#technics5 {
+    padding-bottom: 41px;
 }
 
+#technics1,#technics2,#technics3,#technics4,#technics5 {
+    width: 290px;
+    height: 190px;
+}
 
-#first{position:absolute;
-	margin-top: 147px;
-	background-color: #4aaaa5;
-	color:#eeeeee;
-	width:290px;
-	height:35px;
-	border:0;
-	font-size: 15px;
-	text-align: center;
-	font-family: 'Georgia', Times, 'Times New Roman', serif;	
+#first {
+    position: absolute;
+    margin-top: 147px;
+    background-color: #4aaaa5;
+    color: #eee;
+    width: 290px;
+    height: 35px;
+    border: 0;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Georgia',Times,'Times New Roman',serif;
 }
 
 #github {
-	width:50px;
-	height:50px;
-	float:left;
-	padding-right: 20px;
-	margin-left: 40px;
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding-right: 20px;
+    margin-left: 40px;
 }
 
-#linkedin{
-	width:50px;
-	height:50px;
-	float:left;
-	padding-right: 20px;
-
+#linkedin {
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding-right: 20px;
 }
 
-#stackicon{
-	width:60px;
-	height:60px;
-	float:left;
-	margin-top: -5px;
+#stackicon {
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-top: -5px;
 }
 
-
-footer{
-	height:92px;
-	border-width: 10px 0 0 0;
-	border-style:solid;
-	background-color: #666;
-	border-top-color: #4aaaa5;
-	clear:both;
+footer {
+    height: 92px;
+    border-width: 10px 0 0;
+    border-style: solid;
+    background-color: #666;
+    border-top-color: #4aaaa5;
+    clear: both;
 }
 
-#copyright{
-	text-align: center;
-	padding-top: 20px;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+#copyright {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Arial','Helvetica Neue',Helvetica,sans-serif;
 }
