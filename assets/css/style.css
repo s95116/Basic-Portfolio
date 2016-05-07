@@ -38,11 +38,11 @@ a{
 
 }
 
-a:link {
+a.nav:link {
     text-decoration: none;
 }
 
-a:hover {background:#4aaaa5;}
+a.nav:hover {background:#4aaaa5;}
 
 
 .container{
@@ -136,29 +136,38 @@ h2{
 	float:left;
 	clear:left;
 	height:582;
-	width:145px;
-	display:block;
+	width:194px;
 }
 
 #right-images{
-	float:right;
+	float:left;
 	clear:right;
-	height:582;
-	width:145px;
-	margin-right: -40px;
-}
-#technics1, #technics2, #technics3{
+	height:582px;
 	width:194px;
-	height:145px;
-
+	margin-left: 137px;
 }
 
+#technics1, #technics2, #technics4, #technics5 {
+	padding-bottom: 41px;
+}
+#technics1, #technics2, #technics3,
 #technics4, #technics5{
-	width:194px;
-	height:145px;
-
+	width:290px;
+	height:190px;
 }
 
+
+#first{position:absolute;
+	margin-top: 147px;
+	background-color: #4aaaa5;
+	color:#eeeeee;
+	width:290px;
+	height:35px;
+	border:0;
+	font-size: 15px;
+	text-align: center;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;	
+}
 
 #github {
 	width:50px;
